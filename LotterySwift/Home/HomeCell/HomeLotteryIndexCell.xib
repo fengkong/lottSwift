@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeLotteryIndexCell" customModule="LotterySwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="79"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nxB-8L-1lb">
+                        <rect key="frame" x="69" y="47" width="100" height="16"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jdd_home_tips_background_image" translatesAutoresizingMaskIntoConstraints="NO" id="tw3-Wb-MbZ">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单注可中1000万" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="xwx-6W-yWm">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tw3-Wb-MbZ" firstAttribute="leading" secondItem="nxB-8L-1lb" secondAttribute="leading" id="Gsx-nu-Wv6"/>
+                            <constraint firstItem="xwx-6W-yWm" firstAttribute="leading" secondItem="nxB-8L-1lb" secondAttribute="leading" id="HBL-64-7SE"/>
+                            <constraint firstAttribute="bottom" secondItem="xwx-6W-yWm" secondAttribute="bottom" id="Ie1-Yf-fNG"/>
+                            <constraint firstAttribute="trailing" secondItem="tw3-Wb-MbZ" secondAttribute="trailing" id="K3O-OY-g1X"/>
+                            <constraint firstItem="xwx-6W-yWm" firstAttribute="top" secondItem="nxB-8L-1lb" secondAttribute="top" id="Mvf-KX-b0V"/>
+                            <constraint firstItem="tw3-Wb-MbZ" firstAttribute="top" secondItem="nxB-8L-1lb" secondAttribute="top" id="Rlx-GZ-6XA"/>
+                            <constraint firstAttribute="trailing" secondItem="xwx-6W-yWm" secondAttribute="trailing" id="Syt-I5-Mu0"/>
+                            <constraint firstAttribute="width" constant="100" id="T7g-yZ-YkP"/>
+                            <constraint firstAttribute="height" constant="16" id="VcF-R1-uLG"/>
+                            <constraint firstAttribute="bottom" secondItem="tw3-Wb-MbZ" secondAttribute="bottom" id="jKl-dh-msE"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="超级大乐透" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ngh-Ga-CqZ" userLabel="Lottery Name">
+                        <rect key="frame" x="69" y="22" width="87" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Cdd-RR-GU2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jdd_home_lottery_icon" translatesAutoresizingMaskIntoConstraints="NO" id="o36-0T-rZZ">
+                        <rect key="frame" x="156" y="13" width="24" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="mDs-ir-ou1"/>
+                            <constraint firstAttribute="width" constant="24" id="xkP-dm-MAM"/>
+                        </constraints>
+                    </imageView>
+                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jdd_buy_main_ssq" translatesAutoresizingMaskIntoConstraints="NO" id="zX8-Ck-G2b" userLabel="Lottery Pic">
+                        <rect key="frame" x="16" y="18" width="47" height="47"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="EnM-U6-5Im"/>
+                            <constraint firstAttribute="height" constant="47" id="oPe-Vy-Cqj"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Ngh-Ga-CqZ" firstAttribute="leading" secondItem="zX8-Ck-G2b" secondAttribute="trailing" constant="6" id="1s0-fp-V1t"/>
+                <constraint firstItem="o36-0T-rZZ" firstAttribute="leading" secondItem="Ngh-Ga-CqZ" secondAttribute="trailing" id="66Y-Dv-c9E"/>
+                <constraint firstItem="o36-0T-rZZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="HTD-8U-j3F"/>
+                <constraint firstItem="nxB-8L-1lb" firstAttribute="leading" secondItem="zX8-Ck-G2b" secondAttribute="trailing" constant="6" id="USi-9j-twJ"/>
+                <constraint firstItem="zX8-Ck-G2b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="18" id="YSf-bC-ghd"/>
+                <constraint firstItem="zX8-Ck-G2b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Yuv-ha-aaB"/>
+                <constraint firstItem="nxB-8L-1lb" firstAttribute="top" secondItem="Ngh-Ga-CqZ" secondAttribute="bottom" constant="4" id="jAR-Gi-L7f"/>
+                <constraint firstItem="Ngh-Ga-CqZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="22" id="kSA-LK-74F"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="infoIcon" destination="o36-0T-rZZ" id="Gj6-QM-d52"/>
+                <outlet property="lotteryImage" destination="zX8-Ck-G2b" id="h3e-0p-VR0"/>
+                <outlet property="lotteryName" destination="Ngh-Ga-CqZ" id="hTc-rf-Cge"/>
+                <outlet property="tipsLabel" destination="xwx-6W-yWm" id="ErG-h9-GXC"/>
+                <outlet property="tipsStates" destination="tw3-Wb-MbZ" id="NKD-x0-qY4"/>
+                <outlet property="tipsView" destination="nxB-8L-1lb" id="zZO-PB-wU4"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="jdd_buy_main_ssq" width="52" height="52"/>
+        <image name="jdd_home_lottery_icon" width="27" height="15"/>
+        <image name="jdd_home_tips_background_image" width="68" height="14"/>
+    </resources>
+</document>

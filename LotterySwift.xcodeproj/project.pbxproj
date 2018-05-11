@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E844D93CD0974865E7E1EAE /* Pods_LotterySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A754FBBD2735CD9630B5F003 /* Pods_LotterySwift.framework */; };
+		D70BA890209301680006C492 /* SSQInvestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA88E209301680006C492 /* SSQInvestCollectionViewCell.swift */; };
+		D70BA891209301680006C492 /* SSQInvestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA88F209301680006C492 /* SSQInvestCollectionViewCell.xib */; };
+		D70BA8942093017D0006C492 /* DLTInvestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8922093017D0006C492 /* DLTInvestCollectionViewCell.swift */; };
+		D70BA8952093017D0006C492 /* DLTInvestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8932093017D0006C492 /* DLTInvestCollectionViewCell.xib */; };
+		D70BA898209310850006C492 /* HomeAdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA896209310850006C492 /* HomeAdsCollectionViewCell.swift */; };
+		D70BA899209310850006C492 /* HomeAdsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA897209310850006C492 /* HomeAdsCollectionViewCell.xib */; };
+		D70BA89B209318B90006C492 /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA89A209318B90006C492 /* RefreshHeader.swift */; };
+		D70BA89F20941ED70006C492 /* BJSSQNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA89E20941ED60006C492 /* BJSSQNumber.swift */; };
+		D70BA8A12094211B0006C492 /* LotteryIco.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8A02094211B0006C492 /* LotteryIco.plist */; };
+		D70BA8A3209422D30006C492 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8A2209422D30006C492 /* AppHelper.swift */; };
+		D70BA8A520943E930006C492 /* LotteryDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8A420943E930006C492 /* LotteryDefine.swift */; };
+		D70BA8A8209442F20006C492 /* HomeOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8A6209442F20006C492 /* HomeOperationCell.swift */; };
+		D70BA8A9209442F20006C492 /* HomeOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8A7209442F20006C492 /* HomeOperationCell.xib */; };
+		D70BA8AC20944B070006C492 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8AA20944B070006C492 /* NewsCollectionViewCell.swift */; };
+		D70BA8AD20944B070006C492 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8AB20944B070006C492 /* NewsCollectionViewCell.xib */; };
+		D70BA8B5209456E80006C492 /* DLTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8B3209456E80006C492 /* DLTViewController.swift */; };
+		D70BA8B6209456E80006C492 /* DLTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8B4209456E80006C492 /* DLTViewController.xib */; };
+		D70BA8B82094596C0006C492 /* UIViewController+NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8B72094596C0006C492 /* UIViewController+NavigationItem.swift */; };
+		D70BA8BA20945EC90006C492 /* BJDaletouNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8B920945EC90006C492 /* BJDaletouNumber.swift */; };
+		D70BA8BC20945F0E0006C492 /* DLTNumberAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8BB20945F0E0006C492 /* DLTNumberAreaView.swift */; };
+		D70BA8BF209955A00006C492 /* BJLotteryIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8BE209955A00006C492 /* BJLotteryIssue.swift */; };
+		D70BA8C1209958510006C492 /* IussueInfoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8C0209958510006C492 /* IussueInfoAction.swift */; };
+		D70BA8C3209959A20006C492 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8C2209959A20006C492 /* AppConfig.plist */; };
+		D70BA8C5209959E20006C492 /* AppConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8C4209959E20006C492 /* AppConfigModel.swift */; };
+		D70BA8C7209965580006C492 /* BJAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8C6209965580006C492 /* BJAction.swift */; };
+		D70BA8CB2099B5CE0006C492 /* NumHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8C92099B5CE0006C492 /* NumHistoryViewController.swift */; };
+		D70BA8CC2099B5CE0006C492 /* NumHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8CA2099B5CE0006C492 /* NumHistoryViewController.xib */; };
+		D70BA8CE2099B84D0006C492 /* UIViewController+PopUpAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8CD2099B84D0006C492 /* UIViewController+PopUpAdditions.swift */; };
+		D70BA8D12099BDAA0006C492 /* NumHistoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BA8CF2099BDAA0006C492 /* NumHistoryTableCell.swift */; };
+		D70BA8D22099BDAA0006C492 /* NumHistoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA8D02099BDAA0006C492 /* NumHistoryTableCell.xib */; };
+		D713CAF42091C50400A0E1FE /* HronCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713CAF22091C50400A0E1FE /* HronCollectionViewCell.swift */; };
+		D713CAF52091C50400A0E1FE /* HronCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713CAF32091C50400A0E1FE /* HronCollectionViewCell.xib */; };
+		D715069C20897CB100326583 /* HomeIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715069A20897CB100326583 /* HomeIndexViewController.swift */; };
+		D715069D20897CB100326583 /* HomeIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D715069B20897CB100326583 /* HomeIndexViewController.xib */; };
+		D71506A120897FB100326583 /* HomeSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506A020897FB100326583 /* HomeSectionModel.swift */; };
+		D71506A32089802100326583 /* KvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506A22089802100326583 /* KvModel.swift */; };
+		D71506A52089803500326583 /* HomeNumberLotteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506A42089803500326583 /* HomeNumberLotteryModel.swift */; };
+		D71506A72089804700326583 /* HomeHotGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506A62089804700326583 /* HomeHotGameModel.swift */; };
+		D71506A92089805C00326583 /* HomeLotteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506A82089805C00326583 /* HomeLotteryModel.swift */; };
+		D71506AB2089809000326583 /* NewsIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506AA2089809000326583 /* NewsIndexModel.swift */; };
+		D71506AD2089B50D00326583 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71506AC2089B50D00326583 /* Common.swift */; };
+		D7153E8D208DD04200219B72 /* BuyHallKvCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E8B208DD04200219B72 /* BuyHallKvCollectionViewCell.swift */; };
+		D7153E8E208DD04200219B72 /* BuyHallKvCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153E8C208DD04200219B72 /* BuyHallKvCollectionViewCell.xib */; };
+		D7153E90208DD59D00219B72 /* HomeSectionModel+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E8F208DD59D00219B72 /* HomeSectionModel+CollectionView.swift */; };
+		D7153E93208DDDCB00219B72 /* HomeLotteryIndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E91208DDDCB00219B72 /* HomeLotteryIndexCell.swift */; };
+		D7153E94208DDDCB00219B72 /* HomeLotteryIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153E92208DDDCB00219B72 /* HomeLotteryIndexCell.xib */; };
+		D7153E97208DDEFC00219B72 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E96208DDEFC00219B72 /* CustomTabBarController.swift */; };
+		D7153E9D208DDF4100219B72 /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E9B208DDF4100219B72 /* OpenViewController.swift */; };
+		D7153E9E208DDF4100219B72 /* OpenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153E9C208DDF4100219B72 /* OpenViewController.xib */; };
+		D7153EA1208DDF4D00219B72 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153E9F208DDF4D00219B72 /* UserViewController.swift */; };
+		D7153EA2208DDF4D00219B72 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153EA0208DDF4D00219B72 /* UserViewController.xib */; };
+		D7153EA5208DDF5A00219B72 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153EA3208DDF5A00219B72 /* DiscoverViewController.swift */; };
+		D7153EA6208DDF5A00219B72 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153EA4208DDF5A00219B72 /* DiscoverViewController.xib */; };
+		D7153EA8208DE01100219B72 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153EA7208DE01000219B72 /* CustomNavigationController.swift */; };
+		D77BAB7920A2D7A900F4C87A /* UserCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */; };
+		D77BAB7D20A2FE1100F4C87A /* BJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */; };
+		D77BAB7E20A2FE1100F4C87A /* BJWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */; };
+		D77BAB8020A3F4A400F4C87A /* UIImage+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7F20A3F4A400F4C87A /* UIImage+FileName.swift */; };
+		D77BAB8320A3FACC00F4C87A /* MoreLotteryIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB8120A3FACC00F4C87A /* MoreLotteryIndexViewController.swift */; };
+		D77BAB8420A3FACC00F4C87A /* MoreLotteryIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB8220A3FACC00F4C87A /* MoreLotteryIndexViewController.xib */; };
+		D7BC6EA820A18BD8008EFB3F /* OpenNumLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EA620A18BD8008EFB3F /* OpenNumLotteryCell.swift */; };
+		D7BC6EA920A18BD8008EFB3F /* OpenNumLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EA720A18BD8008EFB3F /* OpenNumLotteryCell.xib */; };
+		D7BC6EAC20A18BF6008EFB3F /* OpenBallLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EAA20A18BF6008EFB3F /* OpenBallLotteryCell.swift */; };
+		D7BC6EAD20A18BF6008EFB3F /* OpenBallLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EAB20A18BF6008EFB3F /* OpenBallLotteryCell.xib */; };
+		D7BC6EB020A18C0B008EFB3F /* OpenSFCLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EAE20A18C0B008EFB3F /* OpenSFCLotteryCell.swift */; };
+		D7BC6EB120A18C0B008EFB3F /* OpenSFCLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EAF20A18C0B008EFB3F /* OpenSFCLotteryCell.xib */; };
+		D7BC6EB320A18C22008EFB3F /* OpenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EB220A18C22008EFB3F /* OpenModel.swift */; };
+		D7BC6EB820A2995B008EFB3F /* DiscoverMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EB620A2995B008EFB3F /* DiscoverMainCell.swift */; };
+		D7BC6EB920A2995B008EFB3F /* DiscoverMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EB720A2995B008EFB3F /* DiscoverMainCell.xib */; };
+		D7BC6EBB20A2996B008EFB3F /* DiscoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EBA20A2996B008EFB3F /* DiscoverModel.swift */; };
+		D7BC6EC020A2AA4B008EFB3F /* UserCenterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EBE20A2AA4B008EFB3F /* UserCenterCollectionCell.swift */; };
+		D7BC6EC120A2AA4B008EFB3F /* UserCenterCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EBF20A2AA4B008EFB3F /* UserCenterCollectionCell.xib */; };
+		D7BC6EC420A2AA5F008EFB3F /* UserCenterHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EC220A2AA5F008EFB3F /* UserCenterHeadCell.swift */; };
+		D7BC6EC520A2AA5F008EFB3F /* UserCenterHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EC320A2AA5F008EFB3F /* UserCenterHeadCell.xib */; };
+		D7BC6EC820A2AA72008EFB3F /* UserCenterMoneyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EC620A2AA72008EFB3F /* UserCenterMoneyCell.swift */; };
+		D7BC6EC920A2AA72008EFB3F /* UserCenterMoneyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EC720A2AA72008EFB3F /* UserCenterMoneyCell.xib */; };
+		D7BC6ECC20A2AAB0008EFB3F /* UserCenterShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6ECA20A2AAB0008EFB3F /* UserCenterShadowView.swift */; };
+		D7BC6ECD20A2AAB0008EFB3F /* UserCenterShadowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6ECB20A2AAB0008EFB3F /* UserCenterShadowView.xib */; };
+		D7BC6ECF20A2C31C008EFB3F /* ProfileLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6ECE20A2C31C008EFB3F /* ProfileLayout.swift */; };
+		D7C2142020872840000F3FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2141F20872840000F3FB2 /* AppDelegate.swift */; };
+		D7C2142720872841000F3FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C2142620872841000F3FB2 /* Assets.xcassets */; };
+		D7C2142A20872841000F3FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2142820872841000F3FB2 /* LaunchScreen.storyboard */; };
+		D7C2143520872841000F3FB2 /* LotterySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2143420872841000F3FB2 /* LotterySwiftTests.swift */; };
+		D7C2144020872841000F3FB2 /* LotterySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2143F20872841000F3FB2 /* LotterySwiftUITests.swift */; };
+		D7C2144F20872900000F3FB2 /* BJAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2144E20872900000F3FB2 /* BJAlamofire.swift */; };
+		D7C2145B208838F7000F3FB2 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C2145A208838F7000F3FB2 /* NSData+CRC32.m */; };
+		D7C2146620886AFD000F3FB2 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C2145D20886AFD000F3FB2 /* NSData+MKBase64.m */; };
+		D7F919FD20A02508003BCF3B /* BJDaletouModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F919FC20A02508003BCF3B /* BJDaletouModel.swift */; };
+		D7F919FF20A02EB9003BCF3B /* NumberLotteryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F919FE20A02EB9003BCF3B /* NumberLotteryViewDelegate.swift */; };
+		D7F91A0120A03FFE003BCF3B /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F91A0020A03FFE003BCF3B /* UIView+Additions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C2143120872841000F3FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C2141420872840000F3FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C2141B20872840000F3FB2;
+			remoteInfo = LotterySwift;
+		};
+		D7C2143C20872841000F3FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C2141420872840000F3FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C2141B20872840000F3FB2;
+			remoteInfo = LotterySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0228A3BD1F07F85ADFC7E3F4 /* Pods-LotterySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotterySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LotterySwift/Pods-LotterySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A754FBBD2735CD9630B5F003 /* Pods_LotterySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotterySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5EC066BF2212F4101C6C8 /* Pods-LotterySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotterySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LotterySwift/Pods-LotterySwift.release.xcconfig"; sourceTree = "<group>"; };
+		D70BA88E209301680006C492 /* SSQInvestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSQInvestCollectionViewCell.swift; sourceTree = "<group>"; };
+		D70BA88F209301680006C492 /* SSQInvestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSQInvestCollectionViewCell.xib; sourceTree = "<group>"; };
+		D70BA8922093017D0006C492 /* DLTInvestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLTInvestCollectionViewCell.swift; sourceTree = "<group>"; };
+		D70BA8932093017D0006C492 /* DLTInvestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLTInvestCollectionViewCell.xib; sourceTree = "<group>"; };
+		D70BA896209310850006C492 /* HomeAdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D70BA897209310850006C492 /* HomeAdsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeAdsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D70BA89A209318B90006C492 /* RefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
+		D70BA89E20941ED60006C492 /* BJSSQNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJSSQNumber.swift; sourceTree = "<group>"; };
+		D70BA8A02094211B0006C492 /* LotteryIco.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LotteryIco.plist; sourceTree = "<group>"; };
+		D70BA8A2209422D30006C492 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		D70BA8A420943E930006C492 /* LotteryDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryDefine.swift; sourceTree = "<group>"; };
+		D70BA8A6209442F20006C492 /* HomeOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOperationCell.swift; sourceTree = "<group>"; };
+		D70BA8A7209442F20006C492 /* HomeOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeOperationCell.xib; sourceTree = "<group>"; };
+		D70BA8AA20944B070006C492 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D70BA8AB20944B070006C492 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D70BA8B3209456E80006C492 /* DLTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLTViewController.swift; sourceTree = "<group>"; };
+		D70BA8B4209456E80006C492 /* DLTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLTViewController.xib; sourceTree = "<group>"; };
+		D70BA8B72094596C0006C492 /* UIViewController+NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationItem.swift"; sourceTree = "<group>"; };
+		D70BA8B920945EC90006C492 /* BJDaletouNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJDaletouNumber.swift; sourceTree = "<group>"; };
+		D70BA8BB20945F0E0006C492 /* DLTNumberAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLTNumberAreaView.swift; sourceTree = "<group>"; };
+		D70BA8BE209955A00006C492 /* BJLotteryIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJLotteryIssue.swift; sourceTree = "<group>"; };
+		D70BA8C0209958510006C492 /* IussueInfoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IussueInfoAction.swift; sourceTree = "<group>"; };
+		D70BA8C2209959A20006C492 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		D70BA8C4209959E20006C492 /* AppConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigModel.swift; sourceTree = "<group>"; };
+		D70BA8C6209965580006C492 /* BJAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJAction.swift; sourceTree = "<group>"; };
+		D70BA8C92099B5CE0006C492 /* NumHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumHistoryViewController.swift; sourceTree = "<group>"; };
+		D70BA8CA2099B5CE0006C492 /* NumHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumHistoryViewController.xib; sourceTree = "<group>"; };
+		D70BA8CD2099B84D0006C492 /* UIViewController+PopUpAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PopUpAdditions.swift"; sourceTree = "<group>"; };
+		D70BA8CF2099BDAA0006C492 /* NumHistoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumHistoryTableCell.swift; sourceTree = "<group>"; };
+		D70BA8D02099BDAA0006C492 /* NumHistoryTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumHistoryTableCell.xib; sourceTree = "<group>"; };
+		D713CAF22091C50400A0E1FE /* HronCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HronCollectionViewCell.swift; sourceTree = "<group>"; };
+		D713CAF32091C50400A0E1FE /* HronCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HronCollectionViewCell.xib; sourceTree = "<group>"; };
+		D715069A20897CB100326583 /* HomeIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIndexViewController.swift; sourceTree = "<group>"; };
+		D715069B20897CB100326583 /* HomeIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeIndexViewController.xib; sourceTree = "<group>"; };
+		D71506A020897FB100326583 /* HomeSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionModel.swift; sourceTree = "<group>"; };
+		D71506A22089802100326583 /* KvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvModel.swift; sourceTree = "<group>"; };
+		D71506A42089803500326583 /* HomeNumberLotteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNumberLotteryModel.swift; sourceTree = "<group>"; };
+		D71506A62089804700326583 /* HomeHotGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHotGameModel.swift; sourceTree = "<group>"; };
+		D71506A82089805C00326583 /* HomeLotteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLotteryModel.swift; sourceTree = "<group>"; };
+		D71506AA2089809000326583 /* NewsIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsIndexModel.swift; sourceTree = "<group>"; };
+		D71506AC2089B50D00326583 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D7153E8B208DD04200219B72 /* BuyHallKvCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyHallKvCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7153E8C208DD04200219B72 /* BuyHallKvCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyHallKvCollectionViewCell.xib; sourceTree = "<group>"; };
+		D7153E8F208DD59D00219B72 /* HomeSectionModel+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeSectionModel+CollectionView.swift"; sourceTree = "<group>"; };
+		D7153E91208DDDCB00219B72 /* HomeLotteryIndexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLotteryIndexCell.swift; sourceTree = "<group>"; };
+		D7153E92208DDDCB00219B72 /* HomeLotteryIndexCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLotteryIndexCell.xib; sourceTree = "<group>"; };
+		D7153E96208DDEFC00219B72 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		D7153E9B208DDF4100219B72 /* OpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
+		D7153E9C208DDF4100219B72 /* OpenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenViewController.xib; sourceTree = "<group>"; };
+		D7153E9F208DDF4D00219B72 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D7153EA0208DDF4D00219B72 /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		D7153EA3208DDF5A00219B72 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		D7153EA4208DDF5A00219B72 /* DiscoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		D7153EA7208DE01000219B72 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterModel.swift; sourceTree = "<group>"; };
+		D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJWebViewController.swift; sourceTree = "<group>"; };
+		D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJWebViewController.xib; sourceTree = "<group>"; };
+		D77BAB7F20A3F4A400F4C87A /* UIImage+FileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+FileName.swift"; sourceTree = "<group>"; };
+		D77BAB8120A3FACC00F4C87A /* MoreLotteryIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLotteryIndexViewController.swift; sourceTree = "<group>"; };
+		D77BAB8220A3FACC00F4C87A /* MoreLotteryIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreLotteryIndexViewController.xib; sourceTree = "<group>"; };
+		D7BC6EA620A18BD8008EFB3F /* OpenNumLotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNumLotteryCell.swift; sourceTree = "<group>"; };
+		D7BC6EA720A18BD8008EFB3F /* OpenNumLotteryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenNumLotteryCell.xib; sourceTree = "<group>"; };
+		D7BC6EAA20A18BF6008EFB3F /* OpenBallLotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBallLotteryCell.swift; sourceTree = "<group>"; };
+		D7BC6EAB20A18BF6008EFB3F /* OpenBallLotteryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenBallLotteryCell.xib; sourceTree = "<group>"; };
+		D7BC6EAE20A18C0B008EFB3F /* OpenSFCLotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSFCLotteryCell.swift; sourceTree = "<group>"; };
+		D7BC6EAF20A18C0B008EFB3F /* OpenSFCLotteryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenSFCLotteryCell.xib; sourceTree = "<group>"; };
+		D7BC6EB220A18C22008EFB3F /* OpenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenModel.swift; sourceTree = "<group>"; };
+		D7BC6EB620A2995B008EFB3F /* DiscoverMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMainCell.swift; sourceTree = "<group>"; };
+		D7BC6EB720A2995B008EFB3F /* DiscoverMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverMainCell.xib; sourceTree = "<group>"; };
+		D7BC6EBA20A2996B008EFB3F /* DiscoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModel.swift; sourceTree = "<group>"; };
+		D7BC6EBE20A2AA4B008EFB3F /* UserCenterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterCollectionCell.swift; sourceTree = "<group>"; };
+		D7BC6EBF20A2AA4B008EFB3F /* UserCenterCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCenterCollectionCell.xib; sourceTree = "<group>"; };
+		D7BC6EC220A2AA5F008EFB3F /* UserCenterHeadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterHeadCell.swift; sourceTree = "<group>"; };
+		D7BC6EC320A2AA5F008EFB3F /* UserCenterHeadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCenterHeadCell.xib; sourceTree = "<group>"; };
+		D7BC6EC620A2AA72008EFB3F /* UserCenterMoneyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterMoneyCell.swift; sourceTree = "<group>"; };
+		D7BC6EC720A2AA72008EFB3F /* UserCenterMoneyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCenterMoneyCell.xib; sourceTree = "<group>"; };
+		D7BC6ECA20A2AAB0008EFB3F /* UserCenterShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterShadowView.swift; sourceTree = "<group>"; };
+		D7BC6ECB20A2AAB0008EFB3F /* UserCenterShadowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCenterShadowView.xib; sourceTree = "<group>"; };
+		D7BC6ECE20A2C31C008EFB3F /* ProfileLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLayout.swift; sourceTree = "<group>"; };
+		D7C2141C20872840000F3FB2 /* LotterySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotterySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2141F20872840000F3FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7C2142620872841000F3FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7C2142920872841000F3FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7C2142B20872841000F3FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2143020872841000F3FB2 /* LotterySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotterySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2143420872841000F3FB2 /* LotterySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotterySwiftTests.swift; sourceTree = "<group>"; };
+		D7C2143620872841000F3FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2143B20872841000F3FB2 /* LotterySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotterySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2143F20872841000F3FB2 /* LotterySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotterySwiftUITests.swift; sourceTree = "<group>"; };
+		D7C2144120872841000F3FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2144E20872900000F3FB2 /* BJAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJAlamofire.swift; sourceTree = "<group>"; };
+		D7C21458208838F6000F3FB2 /* LotterySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotterySwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7C21459208838F7000F3FB2 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
+		D7C2145A208838F7000F3FB2 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
+		D7C2145D20886AFD000F3FB2 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		D7C2146320886AFD000F3FB2 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		D7F919FC20A02508003BCF3B /* BJDaletouModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJDaletouModel.swift; sourceTree = "<group>"; };
+		D7F919FE20A02EB9003BCF3B /* NumberLotteryViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLotteryViewDelegate.swift; sourceTree = "<group>"; };
+		D7F91A0020A03FFE003BCF3B /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C2141920872840000F3FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E844D93CD0974865E7E1EAE /* Pods_LotterySwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2142D20872841000F3FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2143820872841000F3FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967391481074192497C1CE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A754FBBD2735CD9630B5F003 /* Pods_LotterySwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70BA8AE2094563C0006C492 /* BuyHall */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8C82099B5860006C492 /* History */,
+				D70BA8BD209955890006C492 /* Issue */,
+				D70BA8AF2094564E0006C492 /* DaLeTou */,
+			);
+			path = BuyHall;
+			sourceTree = "<group>";
+		};
+		D70BA8AF2094564E0006C492 /* DaLeTou */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8B22094568D0006C492 /* Controller */,
+				D70BA8B02094568C0006C492 /* Model */,
+				D70BA8B12094568D0006C492 /* View */,
+			);
+			path = DaLeTou;
+			sourceTree = "<group>";
+		};
+		D70BA8B02094568C0006C492 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8B920945EC90006C492 /* BJDaletouNumber.swift */,
+				D7F919FC20A02508003BCF3B /* BJDaletouModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D70BA8B12094568D0006C492 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8BB20945F0E0006C492 /* DLTNumberAreaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D70BA8B22094568D0006C492 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8B3209456E80006C492 /* DLTViewController.swift */,
+				D70BA8B4209456E80006C492 /* DLTViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D70BA8BD209955890006C492 /* Issue */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8BE209955A00006C492 /* BJLotteryIssue.swift */,
+				D70BA8C0209958510006C492 /* IussueInfoAction.swift */,
+				D70BA8C6209965580006C492 /* BJAction.swift */,
+				D7F919FE20A02EB9003BCF3B /* NumberLotteryViewDelegate.swift */,
+			);
+			path = Issue;
+			sourceTree = "<group>";
+		};
+		D70BA8C82099B5860006C492 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				D70BA8C92099B5CE0006C492 /* NumHistoryViewController.swift */,
+				D70BA8CA2099B5CE0006C492 /* NumHistoryViewController.xib */,
+				D70BA8CF2099BDAA0006C492 /* NumHistoryTableCell.swift */,
+				D70BA8D02099BDAA0006C492 /* NumHistoryTableCell.xib */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		D715069920897C9100326583 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D715069F20897F6A00326583 /* HomeCell */,
+				D715069E20897F5700326583 /* HomeModel */,
+				D715069A20897CB100326583 /* HomeIndexViewController.swift */,
+				D715069B20897CB100326583 /* HomeIndexViewController.xib */,
+				D71506A020897FB100326583 /* HomeSectionModel.swift */,
+				D7153E8F208DD59D00219B72 /* HomeSectionModel+CollectionView.swift */,
+				D77BAB8120A3FACC00F4C87A /* MoreLotteryIndexViewController.swift */,
+				D77BAB8220A3FACC00F4C87A /* MoreLotteryIndexViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D715069E20897F5700326583 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				D71506A22089802100326583 /* KvModel.swift */,
+				D71506A42089803500326583 /* HomeNumberLotteryModel.swift */,
+				D71506A62089804700326583 /* HomeHotGameModel.swift */,
+				D71506A82089805C00326583 /* HomeLotteryModel.swift */,
+				D71506AA2089809000326583 /* NewsIndexModel.swift */,
+				D70BA89E20941ED60006C492 /* BJSSQNumber.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		D715069F20897F6A00326583 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7153E8B208DD04200219B72 /* BuyHallKvCollectionViewCell.swift */,
+				D7153E8C208DD04200219B72 /* BuyHallKvCollectionViewCell.xib */,
+				D7153E91208DDDCB00219B72 /* HomeLotteryIndexCell.swift */,
+				D7153E92208DDDCB00219B72 /* HomeLotteryIndexCell.xib */,
+				D713CAF22091C50400A0E1FE /* HronCollectionViewCell.swift */,
+				D713CAF32091C50400A0E1FE /* HronCollectionViewCell.xib */,
+				D70BA88E209301680006C492 /* SSQInvestCollectionViewCell.swift */,
+				D70BA88F209301680006C492 /* SSQInvestCollectionViewCell.xib */,
+				D70BA8922093017D0006C492 /* DLTInvestCollectionViewCell.swift */,
+				D70BA8932093017D0006C492 /* DLTInvestCollectionViewCell.xib */,
+				D70BA896209310850006C492 /* HomeAdsCollectionViewCell.swift */,
+				D70BA897209310850006C492 /* HomeAdsCollectionViewCell.xib */,
+				D70BA8A6209442F20006C492 /* HomeOperationCell.swift */,
+				D70BA8A7209442F20006C492 /* HomeOperationCell.xib */,
+				D70BA8AA20944B070006C492 /* NewsCollectionViewCell.swift */,
+				D70BA8AB20944B070006C492 /* NewsCollectionViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		D7153E95208DDE7100219B72 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D7153E96208DDEFC00219B72 /* CustomTabBarController.swift */,
+				D7153EA7208DE01000219B72 /* CustomNavigationController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D7153E98208DDF0D00219B72 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EB520A29944008EFB3F /* DiscoverCell */,
+				D7BC6EB420A29943008EFB3F /* DiscoverModel */,
+				D7153EA3208DDF5A00219B72 /* DiscoverViewController.swift */,
+				D7153EA4208DDF5A00219B72 /* DiscoverViewController.xib */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		D7153E99208DDF1A00219B72 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EBC20A2A773008EFB3F /* UserCell */,
+				D7BC6EBD20A2A773008EFB3F /* UserModel */,
+				D7153E9F208DDF4D00219B72 /* UserViewController.swift */,
+				D7153EA0208DDF4D00219B72 /* UserViewController.xib */,
+				D7BC6ECE20A2C31C008EFB3F /* ProfileLayout.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D7153E9A208DDF2A00219B72 /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EA520A18BB0008EFB3F /* OpenModel */,
+				D7BC6EA420A18B51008EFB3F /* OpenCell */,
+				D7153E9B208DDF4100219B72 /* OpenViewController.swift */,
+				D7153E9C208DDF4100219B72 /* OpenViewController.xib */,
+			);
+			path = Open;
+			sourceTree = "<group>";
+		};
+		D77BAB7A20A2FDFA00F4C87A /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */,
+				D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		D7BC6EA420A18B51008EFB3F /* OpenCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EA620A18BD8008EFB3F /* OpenNumLotteryCell.swift */,
+				D7BC6EA720A18BD8008EFB3F /* OpenNumLotteryCell.xib */,
+				D7BC6EAA20A18BF6008EFB3F /* OpenBallLotteryCell.swift */,
+				D7BC6EAB20A18BF6008EFB3F /* OpenBallLotteryCell.xib */,
+				D7BC6EAE20A18C0B008EFB3F /* OpenSFCLotteryCell.swift */,
+				D7BC6EAF20A18C0B008EFB3F /* OpenSFCLotteryCell.xib */,
+			);
+			path = OpenCell;
+			sourceTree = "<group>";
+		};
+		D7BC6EA520A18BB0008EFB3F /* OpenModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EB220A18C22008EFB3F /* OpenModel.swift */,
+			);
+			path = OpenModel;
+			sourceTree = "<group>";
+		};
+		D7BC6EB420A29943008EFB3F /* DiscoverModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EBA20A2996B008EFB3F /* DiscoverModel.swift */,
+			);
+			path = DiscoverModel;
+			sourceTree = "<group>";
+		};
+		D7BC6EB520A29944008EFB3F /* DiscoverCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EB620A2995B008EFB3F /* DiscoverMainCell.swift */,
+				D7BC6EB720A2995B008EFB3F /* DiscoverMainCell.xib */,
+			);
+			path = DiscoverCell;
+			sourceTree = "<group>";
+		};
+		D7BC6EBC20A2A773008EFB3F /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC6EBE20A2AA4B008EFB3F /* UserCenterCollectionCell.swift */,
+				D7BC6EBF20A2AA4B008EFB3F /* UserCenterCollectionCell.xib */,
+				D7BC6EC220A2AA5F008EFB3F /* UserCenterHeadCell.swift */,
+				D7BC6EC320A2AA5F008EFB3F /* UserCenterHeadCell.xib */,
+				D7BC6EC620A2AA72008EFB3F /* UserCenterMoneyCell.swift */,
+				D7BC6EC720A2AA72008EFB3F /* UserCenterMoneyCell.xib */,
+				D7BC6ECA20A2AAB0008EFB3F /* UserCenterShadowView.swift */,
+				D7BC6ECB20A2AAB0008EFB3F /* UserCenterShadowView.xib */,
+			);
+			path = UserCell;
+			sourceTree = "<group>";
+		};
+		D7BC6EBD20A2A773008EFB3F /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		D7C2141320872840000F3FB2 = {
+			isa = PBXGroup;
+			children = (
+				D7C2141E20872840000F3FB2 /* LotterySwift */,
+				D7C2143320872841000F3FB2 /* LotterySwiftTests */,
+				D7C2143E20872841000F3FB2 /* LotterySwiftUITests */,
+				D7C2141D20872840000F3FB2 /* Products */,
+				FBC12B592FE7F07F65F5D00B /* Pods */,
+				967391481074192497C1CE07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C2141D20872840000F3FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2141C20872840000F3FB2 /* LotterySwift.app */,
+				D7C2143020872841000F3FB2 /* LotterySwiftTests.xctest */,
+				D7C2143B20872841000F3FB2 /* LotterySwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C2141E20872840000F3FB2 /* LotterySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D77BAB7A20A2FDFA00F4C87A /* WebView */,
+				D70BA8AE2094563C0006C492 /* BuyHall */,
+				D7153E9A208DDF2A00219B72 /* Open */,
+				D7153E99208DDF1A00219B72 /* User */,
+				D7153E98208DDF0D00219B72 /* Discover */,
+				D7153E95208DDE7100219B72 /* TabBar */,
+				D715069920897C9100326583 /* Home */,
+				D7C2145020872A4A000F3FB2 /* Common */,
+				D7C2144D208728E5000F3FB2 /* Service */,
+				D7C2141F20872840000F3FB2 /* AppDelegate.swift */,
+				D71506AC2089B50D00326583 /* Common.swift */,
+				D70BA8A2209422D30006C492 /* AppHelper.swift */,
+				D70BA8A420943E930006C492 /* LotteryDefine.swift */,
+				D70BA8C4209959E20006C492 /* AppConfigModel.swift */,
+				D7C2142620872841000F3FB2 /* Assets.xcassets */,
+				D7C2142820872841000F3FB2 /* LaunchScreen.storyboard */,
+				D7C2142B20872841000F3FB2 /* Info.plist */,
+				D70BA8A02094211B0006C492 /* LotteryIco.plist */,
+				D70BA8C2209959A20006C492 /* AppConfig.plist */,
+			);
+			path = LotterySwift;
+			sourceTree = "<group>";
+		};
+		D7C2143320872841000F3FB2 /* LotterySwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2143420872841000F3FB2 /* LotterySwiftTests.swift */,
+				D7C2143620872841000F3FB2 /* Info.plist */,
+			);
+			path = LotterySwiftTests;
+			sourceTree = "<group>";
+		};
+		D7C2143E20872841000F3FB2 /* LotterySwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2143F20872841000F3FB2 /* LotterySwiftUITests.swift */,
+				D7C2144120872841000F3FB2 /* Info.plist */,
+			);
+			path = LotterySwiftUITests;
+			sourceTree = "<group>";
+		};
+		D7C2144D208728E5000F3FB2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2144E20872900000F3FB2 /* BJAlamofire.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D7C2145020872A4A000F3FB2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2145C20886AFD000F3FB2 /* DataAdditons */,
+				D7C21459208838F7000F3FB2 /* NSData+CRC32.h */,
+				D7C2145A208838F7000F3FB2 /* NSData+CRC32.m */,
+				D7C21458208838F6000F3FB2 /* LotterySwift-Bridging-Header.h */,
+				D70BA89A209318B90006C492 /* RefreshHeader.swift */,
+				D70BA8B72094596C0006C492 /* UIViewController+NavigationItem.swift */,
+				D70BA8CD2099B84D0006C492 /* UIViewController+PopUpAdditions.swift */,
+				D7F91A0020A03FFE003BCF3B /* UIView+Additions.swift */,
+				D77BAB7F20A3F4A400F4C87A /* UIImage+FileName.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D7C2145C20886AFD000F3FB2 /* DataAdditons */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2146320886AFD000F3FB2 /* NSData+MKBase64.h */,
+				D7C2145D20886AFD000F3FB2 /* NSData+MKBase64.m */,
+			);
+			path = DataAdditons;
+			sourceTree = "<group>";
+		};
+		FBC12B592FE7F07F65F5D00B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0228A3BD1F07F85ADFC7E3F4 /* Pods-LotterySwift.debug.xcconfig */,
+				C2E5EC066BF2212F4101C6C8 /* Pods-LotterySwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C2141B20872840000F3FB2 /* LotterySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2144420872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwift" */;
+			buildPhases = (
+				C9176156067205469035E269 /* [CP] Check Pods Manifest.lock */,
+				D7C2141820872840000F3FB2 /* Sources */,
+				D7C2141920872840000F3FB2 /* Frameworks */,
+				D7C2141A20872840000F3FB2 /* Resources */,
+				7806C68FC37DB9ACA4436348 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotterySwift;
+			productName = LotterySwift;
+			productReference = D7C2141C20872840000F3FB2 /* LotterySwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C2142F20872841000F3FB2 /* LotterySwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2144720872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwiftTests" */;
+			buildPhases = (
+				D7C2142C20872841000F3FB2 /* Sources */,
+				D7C2142D20872841000F3FB2 /* Frameworks */,
+				D7C2142E20872841000F3FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C2143220872841000F3FB2 /* PBXTargetDependency */,
+			);
+			name = LotterySwiftTests;
+			productName = LotterySwiftTests;
+			productReference = D7C2143020872841000F3FB2 /* LotterySwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7C2143A20872841000F3FB2 /* LotterySwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2144A20872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwiftUITests" */;
+			buildPhases = (
+				D7C2143720872841000F3FB2 /* Sources */,
+				D7C2143820872841000F3FB2 /* Frameworks */,
+				D7C2143920872841000F3FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C2143D20872841000F3FB2 /* PBXTargetDependency */,
+			);
+			name = LotterySwiftUITests;
+			productName = LotterySwiftUITests;
+			productReference = D7C2143B20872841000F3FB2 /* LotterySwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C2141420872840000F3FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "孔峰";
+				TargetAttributes = {
+					D7C2141B20872840000F3FB2 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					D7C2142F20872841000F3FB2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D7C2141B20872840000F3FB2;
+					};
+					D7C2143A20872841000F3FB2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D7C2141B20872840000F3FB2;
+					};
+				};
+			};
+			buildConfigurationList = D7C2141720872840000F3FB2 /* Build configuration list for PBXProject "LotterySwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C2141320872840000F3FB2;
+			productRefGroup = D7C2141D20872840000F3FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C2141B20872840000F3FB2 /* LotterySwift */,
+				D7C2142F20872841000F3FB2 /* LotterySwiftTests */,
+				D7C2143A20872841000F3FB2 /* LotterySwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C2141A20872840000F3FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BC6EB920A2995B008EFB3F /* DiscoverMainCell.xib in Resources */,
+				D7BC6EA920A18BD8008EFB3F /* OpenNumLotteryCell.xib in Resources */,
+				D70BA8A9209442F20006C492 /* HomeOperationCell.xib in Resources */,
+				D7153EA2208DDF4D00219B72 /* UserViewController.xib in Resources */,
+				D70BA891209301680006C492 /* SSQInvestCollectionViewCell.xib in Resources */,
+				D77BAB7E20A2FE1100F4C87A /* BJWebViewController.xib in Resources */,
+				D70BA899209310850006C492 /* HomeAdsCollectionViewCell.xib in Resources */,
+				D7BC6EC920A2AA72008EFB3F /* UserCenterMoneyCell.xib in Resources */,
+				D70BA8952093017D0006C492 /* DLTInvestCollectionViewCell.xib in Resources */,
+				D7153EA6208DDF5A00219B72 /* DiscoverViewController.xib in Resources */,
+				D715069D20897CB100326583 /* HomeIndexViewController.xib in Resources */,
+				D7BC6ECD20A2AAB0008EFB3F /* UserCenterShadowView.xib in Resources */,
+				D7BC6EC120A2AA4B008EFB3F /* UserCenterCollectionCell.xib in Resources */,
+				D70BA8A12094211B0006C492 /* LotteryIco.plist in Resources */,
+				D70BA8AD20944B070006C492 /* NewsCollectionViewCell.xib in Resources */,
+				D70BA8B6209456E80006C492 /* DLTViewController.xib in Resources */,
+				D7153E8E208DD04200219B72 /* BuyHallKvCollectionViewCell.xib in Resources */,
+				D7BC6EB120A18C0B008EFB3F /* OpenSFCLotteryCell.xib in Resources */,
+				D713CAF52091C50400A0E1FE /* HronCollectionViewCell.xib in Resources */,
+				D70BA8CC2099B5CE0006C492 /* NumHistoryViewController.xib in Resources */,
+				D7BC6EC520A2AA5F008EFB3F /* UserCenterHeadCell.xib in Resources */,
+				D70BA8D22099BDAA0006C492 /* NumHistoryTableCell.xib in Resources */,
+				D77BAB8420A3FACC00F4C87A /* MoreLotteryIndexViewController.xib in Resources */,
+				D7153E94208DDDCB00219B72 /* HomeLotteryIndexCell.xib in Resources */,
+				D7BC6EAD20A18BF6008EFB3F /* OpenBallLotteryCell.xib in Resources */,
+				D7C2142A20872841000F3FB2 /* LaunchScreen.storyboard in Resources */,
+				D7153E9E208DDF4100219B72 /* OpenViewController.xib in Resources */,
+				D70BA8C3209959A20006C492 /* AppConfig.plist in Resources */,
+				D7C2142720872841000F3FB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2142E20872841000F3FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2143920872841000F3FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7806C68FC37DB9ACA4436348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LotterySwift/Pods-LotterySwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ZCycleView/ZCycleView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZCycleView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotterySwift/Pods-LotterySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9176156067205469035E269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotterySwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C2141820872840000F3FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71506AB2089809000326583 /* NewsIndexModel.swift in Sources */,
+				D7BC6EC420A2AA5F008EFB3F /* UserCenterHeadCell.swift in Sources */,
+				D7153EA1208DDF4D00219B72 /* UserViewController.swift in Sources */,
+				D71506A120897FB100326583 /* HomeSectionModel.swift in Sources */,
+				D70BA8D12099BDAA0006C492 /* NumHistoryTableCell.swift in Sources */,
+				D7F91A0120A03FFE003BCF3B /* UIView+Additions.swift in Sources */,
+				D7153E97208DDEFC00219B72 /* CustomTabBarController.swift in Sources */,
+				D7153E8D208DD04200219B72 /* BuyHallKvCollectionViewCell.swift in Sources */,
+				D7153E90208DD59D00219B72 /* HomeSectionModel+CollectionView.swift in Sources */,
+				D70BA8BF209955A00006C492 /* BJLotteryIssue.swift in Sources */,
+				D7BC6ECC20A2AAB0008EFB3F /* UserCenterShadowView.swift in Sources */,
+				D7C2145B208838F7000F3FB2 /* NSData+CRC32.m in Sources */,
+				D7C2142020872840000F3FB2 /* AppDelegate.swift in Sources */,
+				D70BA8B82094596C0006C492 /* UIViewController+NavigationItem.swift in Sources */,
+				D70BA89B209318B90006C492 /* RefreshHeader.swift in Sources */,
+				D70BA8C5209959E20006C492 /* AppConfigModel.swift in Sources */,
+				D7153EA5208DDF5A00219B72 /* DiscoverViewController.swift in Sources */,
+				D77BAB8320A3FACC00F4C87A /* MoreLotteryIndexViewController.swift in Sources */,
+				D71506AD2089B50D00326583 /* Common.swift in Sources */,
+				D70BA8A3209422D30006C492 /* AppHelper.swift in Sources */,
+				D7F919FD20A02508003BCF3B /* BJDaletouModel.swift in Sources */,
+				D7C2144F20872900000F3FB2 /* BJAlamofire.swift in Sources */,
+				D70BA890209301680006C492 /* SSQInvestCollectionViewCell.swift in Sources */,
+				D70BA8CB2099B5CE0006C492 /* NumHistoryViewController.swift in Sources */,
+				D70BA8C7209965580006C492 /* BJAction.swift in Sources */,
+				D70BA8A8209442F20006C492 /* HomeOperationCell.swift in Sources */,
+				D77BAB7D20A2FE1100F4C87A /* BJWebViewController.swift in Sources */,
+				D70BA8A520943E930006C492 /* LotteryDefine.swift in Sources */,
+				D7BC6EC020A2AA4B008EFB3F /* UserCenterCollectionCell.swift in Sources */,
+				D77BAB8020A3F4A400F4C87A /* UIImage+FileName.swift in Sources */,
+				D70BA8AC20944B070006C492 /* NewsCollectionViewCell.swift in Sources */,
+				D70BA8942093017D0006C492 /* DLTInvestCollectionViewCell.swift in Sources */,
+				D71506A32089802100326583 /* KvModel.swift in Sources */,
+				D70BA8C1209958510006C492 /* IussueInfoAction.swift in Sources */,
+				D71506A52089803500326583 /* HomeNumberLotteryModel.swift in Sources */,
+				D7BC6EB320A18C22008EFB3F /* OpenModel.swift in Sources */,
+				D77BAB7920A2D7A900F4C87A /* UserCenterModel.swift in Sources */,
+				D7BC6EA820A18BD8008EFB3F /* OpenNumLotteryCell.swift in Sources */,
+				D7153E9D208DDF4100219B72 /* OpenViewController.swift in Sources */,
+				D70BA8BA20945EC90006C492 /* BJDaletouNumber.swift in Sources */,
+				D70BA8B5209456E80006C492 /* DLTViewController.swift in Sources */,
+				D713CAF42091C50400A0E1FE /* HronCollectionViewCell.swift in Sources */,
+				D7C2146620886AFD000F3FB2 /* NSData+MKBase64.m in Sources */,
+				D70BA898209310850006C492 /* HomeAdsCollectionViewCell.swift in Sources */,
+				D7BC6EAC20A18BF6008EFB3F /* OpenBallLotteryCell.swift in Sources */,
+				D70BA8BC20945F0E0006C492 /* DLTNumberAreaView.swift in Sources */,
+				D7BC6EC820A2AA72008EFB3F /* UserCenterMoneyCell.swift in Sources */,
+				D7153E93208DDDCB00219B72 /* HomeLotteryIndexCell.swift in Sources */,
+				D7BC6EBB20A2996B008EFB3F /* DiscoverModel.swift in Sources */,
+				D7153EA8208DE01100219B72 /* CustomNavigationController.swift in Sources */,
+				D7F919FF20A02EB9003BCF3B /* NumberLotteryViewDelegate.swift in Sources */,
+				D70BA8CE2099B84D0006C492 /* UIViewController+PopUpAdditions.swift in Sources */,
+				D7BC6EB020A18C0B008EFB3F /* OpenSFCLotteryCell.swift in Sources */,
+				D70BA89F20941ED70006C492 /* BJSSQNumber.swift in Sources */,
+				D7BC6EB820A2995B008EFB3F /* DiscoverMainCell.swift in Sources */,
+				D71506A72089804700326583 /* HomeHotGameModel.swift in Sources */,
+				D71506A92089805C00326583 /* HomeLotteryModel.swift in Sources */,
+				D7BC6ECF20A2C31C008EFB3F /* ProfileLayout.swift in Sources */,
+				D715069C20897CB100326583 /* HomeIndexViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2142C20872841000F3FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2143520872841000F3FB2 /* LotterySwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2143720872841000F3FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2144020872841000F3FB2 /* LotterySwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C2143220872841000F3FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C2141B20872840000F3FB2 /* LotterySwift */;
+			targetProxy = D7C2143120872841000F3FB2 /* PBXContainerItemProxy */;
+		};
+		D7C2143D20872841000F3FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C2141B20872840000F3FB2 /* LotterySwift */;
+			targetProxy = D7C2143C20872841000F3FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C2142820872841000F3FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C2142920872841000F3FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C2144220872841000F3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7C2144320872841000F3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C2144520872841000F3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0228A3BD1F07F85ADFC7E3F4 /* Pods-LotterySwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LotterySwift/Common/LotterySwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C2144620872841000F3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E5EC066BF2212F4101C6C8 /* Pods-LotterySwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LotterySwift/Common/LotterySwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7C2144820872841000F3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji.LotterySwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotterySwift.app/LotterySwift";
+			};
+			name = Debug;
+		};
+		D7C2144920872841000F3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji.LotterySwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotterySwift.app/LotterySwift";
+			};
+			name = Release;
+		};
+		D7C2144B20872841000F3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji.LotterySwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LotterySwift;
+			};
+			name = Debug;
+		};
+		D7C2144C20872841000F3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCA3WW534W;
+				INFOPLIST_FILE = LotterySwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddpard.baoji.LotterySwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LotterySwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C2141720872840000F3FB2 /* Build configuration list for PBXProject "LotterySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2144220872841000F3FB2 /* Debug */,
+				D7C2144320872841000F3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2144420872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2144520872841000F3FB2 /* Debug */,
+				D7C2144620872841000F3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2144720872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2144820872841000F3FB2 /* Debug */,
+				D7C2144920872841000F3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2144A20872841000F3FB2 /* Build configuration list for PBXNativeTarget "LotterySwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2144B20872841000F3FB2 /* Debug */,
+				D7C2144C20872841000F3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7C2141420872840000F3FB2 /* Project object */;
+}

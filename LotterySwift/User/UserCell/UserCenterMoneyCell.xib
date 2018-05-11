@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UserCenterMoneyCell" customModule="LotterySwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="65"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jdd_chongzhi" translatesAutoresizingMaskIntoConstraints="NO" id="4ca-No-tkt">
+                        <rect key="frame" x="38" y="9" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="aRs-pQ-nqm"/>
+                            <constraint firstAttribute="width" constant="25" id="iMC-ko-84E"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQO-RU-NQJ">
+                        <rect key="frame" x="99" y="14" width="0.5" height="37"/>
+                        <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="T0s-cT-jUA"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9i-KK-NTg">
+                        <rect key="frame" x="35" y="37" width="31" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Th7-km-ne0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4ca-No-tkt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="9" id="2PC-cd-JND"/>
+                <constraint firstItem="4ca-No-tkt" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="EpL-Wf-A34"/>
+                <constraint firstItem="F9i-KK-NTg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="JMW-vJ-VfB"/>
+                <constraint firstAttribute="trailing" secondItem="lQO-RU-NQJ" secondAttribute="trailing" id="gFh-qt-jlp"/>
+                <constraint firstItem="lQO-RU-NQJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="idN-U8-ugj"/>
+                <constraint firstItem="F9i-KK-NTg" firstAttribute="top" secondItem="4ca-No-tkt" secondAttribute="bottom" constant="3" id="ogL-4z-IcH"/>
+                <constraint firstAttribute="bottom" secondItem="lQO-RU-NQJ" secondAttribute="bottom" constant="14" id="ts4-Rp-lds"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="iconImage" destination="4ca-No-tkt" id="JzJ-Si-jSU"/>
+                <outlet property="lineView" destination="lQO-RU-NQJ" id="LVi-hz-esW"/>
+                <outlet property="titleLabel" destination="F9i-KK-NTg" id="Mk1-2e-t00"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="jdd_chongzhi" width="19" height="19"/>
+    </resources>
+</document>

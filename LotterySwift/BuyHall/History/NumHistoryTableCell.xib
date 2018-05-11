@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NumHistoryTableCell" customModule="LotterySwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="34.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting_tip" translatesAutoresizingMaskIntoConstraints="NO" id="i53-Tf-A17">
+                        <rect key="frame" x="16" y="14" width="7" height="7"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="7" id="4qh-bq-uEV"/>
+                            <constraint firstAttribute="width" constant="7" id="sTd-uP-tf8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000000期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJn-M7-gPm">
+                        <rect key="frame" x="29" y="7" width="100" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="gy1-zR-Hrq"/>
+                            <constraint firstAttribute="height" constant="21" id="jhE-HC-uJL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                        <color key="textColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds " value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-qv-yum">
+                        <rect key="frame" x="269" y="7" width="9" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="ugB-0d-EGM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                        <color key="textColor" red="0.3294117647" green="0.4823529412" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds " value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8d-hT-n1M">
+                        <rect key="frame" x="139" y="10" width="130" height="15"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="4a4-8Q-Mko"/>
+                            <constraint firstAttribute="width" constant="130" id="cJx-Dc-SmJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                        <color key="textColor" red="0.8862745098" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds " value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="j8d-hT-n1M" firstAttribute="leading" secondItem="UJn-M7-gPm" secondAttribute="trailing" constant="10" id="4A6-Zb-Qxy"/>
+                    <constraint firstItem="j8d-hT-n1M" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="8qT-WO-xKg"/>
+                    <constraint firstItem="q7G-qv-yum" firstAttribute="leading" secondItem="j8d-hT-n1M" secondAttribute="trailing" id="9sw-RQ-AkG"/>
+                    <constraint firstItem="UJn-M7-gPm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="Idm-3i-730"/>
+                    <constraint firstItem="i53-Tf-A17" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="YjB-I3-XWR"/>
+                    <constraint firstItem="q7G-qv-yum" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="a6Z-QN-Uzd"/>
+                    <constraint firstItem="i53-Tf-A17" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="bsx-fR-iv9"/>
+                    <constraint firstItem="UJn-M7-gPm" firstAttribute="leading" secondItem="i53-Tf-A17" secondAttribute="trailing" constant="6" id="ue6-jd-vwp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="blueNumLabel" destination="q7G-qv-yum" id="ah6-HU-AW3"/>
+                <outlet property="issueLabel" destination="UJn-M7-gPm" id="29n-TX-NC7"/>
+                <outlet property="redNumBall" destination="j8d-hT-n1M" id="ppT-G9-4r0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="setting_tip" width="12" height="12"/>
+    </resources>
+</document>

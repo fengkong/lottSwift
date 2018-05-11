@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HttpsEnable</key>
+	<true/>
+	<key>CmdName</key>
+	<string>app_zz_ios</string>
+	<key>New item</key>
+	<string></string>
+	<key>AppID</key>
+	<string>1301772103</string>
+	<key>BuglyServiceID</key>
+	<string>4d6f0aae48</string>
+	<key>TalkingDataServiceID</key>
+	<string>E4B9D34A5CE7412DAB941FB34C8669D3</string>
+	<key>TalkingDataAdTracking</key>
+	<string>7E4A3E820EAA47A4BBFDCFC95A3DBF16</string>
+	<key>urls</key>
+	<dict>
+		<key>java_user</key>
+		<string>https://user-api.jddpard.com</string>
+		<key>java_base</key>
+		<string>https://bd-api.jddpard.com</string>
+		<key>java_order</key>
+		<string>https://order-api.jddpard.com</string>
+		<key>java_trade</key>
+		<string>https://trade-api.jddpard.com</string>
+		<key>java_master</key>
+		<string>https://master-api.jddpard.com</string>
+		<key>java_activity</key>
+		<string>https://activity-api.jddpard.com</string>
+		<key>java_rp</key>
+		<string>https://rp-api.jddpard.com</string>
+		<key>java_site</key>
+		<string>https://report-api.jddpard.com</string>
+		<key>java_admin</key>
+		<string>https://appadmin-api.jddpard.com</string>
+		<key>dcds</key>
+		<string>http://dcds.jddpard.com</string>
+		<key>info</key>
+		<string>https://info-api.jddpard.com</string>
+		<key>push</key>
+		<string>http://push-server.jddpard.com</string>
+		<key>report</key>
+		<string>https://report-api.jddpard.com</string>
+	</dict>
+</dict>
+</plist>
