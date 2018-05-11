@@ -82,7 +82,6 @@ extension BJAlamofire{
         var result = ""
         do {
             let str: String = String(data: data, encoding: String.Encoding.utf8)!
-            
             let key = "d3YmI1BUOSE2S2YmalBVZUQ="
             let iv = "0000000000000000"
             
@@ -94,7 +93,7 @@ extension BJAlamofire{
             result = encrypted.toBase64()!
             
             //开始解密
-//            let decrypted = try aes.decrypt(encrypted)
+//            let decrypted =  try aes.decrypt(encrypted)
         } catch {
         }
         
