@@ -2,8 +2,8 @@
 //  UserViewController.swift
 //  LotterySwift
 //
-//  Created by 孔峰 on 2018/4/23.
-//  Copyright © 2018年 孔峰. All rights reserved.
+//  Created by richard on 2018/4/23.
+//  Copyright © 2018年 richard. All rights reserved.
 //
 
 import UIKit
@@ -86,6 +86,13 @@ extension UserViewController: UICollectionViewDataSource{
         
         if indexPath.section == 0 {
             let headCell = collectionView.dequeueReusableCell(withReuseIdentifier: "UserCenterHeadCell", for: indexPath) as! UserCenterHeadCell
+            headCell.loginBlock = { [weak self] (button) in
+                
+                let loginContriller = BJLoginViewController()
+                let nav = BJLoginNavigationController(rootViewController: loginContriller)
+                self?.present(nav, animated: true, completion: nil)
+                
+            }
             return headCell
         }else if(indexPath.section == 1){
             let moneyCell = collectionView.dequeueReusableCell(withReuseIdentifier: "UserCenterMoneyCell", for: indexPath) as! UserCenterMoneyCell

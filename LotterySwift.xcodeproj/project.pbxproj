@@ -62,12 +62,21 @@
 		D7153EA5208DDF5A00219B72 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153EA3208DDF5A00219B72 /* DiscoverViewController.swift */; };
 		D7153EA6208DDF5A00219B72 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7153EA4208DDF5A00219B72 /* DiscoverViewController.xib */; };
 		D7153EA8208DE01100219B72 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7153EA7208DE01000219B72 /* CustomNavigationController.swift */; };
+		D7576FBB20A56776007E201C /* BJSmsLoginRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FB920A56776007E201C /* BJSmsLoginRViewController.swift */; };
+		D7576FBC20A56776007E201C /* BJSmsLoginRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FBA20A56776007E201C /* BJSmsLoginRViewController.xib */; };
+		D7576FBF20A56785007E201C /* BJPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FBD20A56785007E201C /* BJPasswordViewController.swift */; };
+		D7576FC020A56785007E201C /* BJPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FBE20A56785007E201C /* BJPasswordViewController.xib */; };
+		D7576FC320A56792007E201C /* BJRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FC120A56792007E201C /* BJRegisterViewController.swift */; };
+		D7576FC420A56792007E201C /* BJRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FC220A56792007E201C /* BJRegisterViewController.xib */; };
 		D77BAB7920A2D7A900F4C87A /* UserCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */; };
 		D77BAB7D20A2FE1100F4C87A /* BJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */; };
 		D77BAB7E20A2FE1100F4C87A /* BJWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */; };
 		D77BAB8020A3F4A400F4C87A /* UIImage+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7F20A3F4A400F4C87A /* UIImage+FileName.swift */; };
 		D77BAB8320A3FACC00F4C87A /* MoreLotteryIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB8120A3FACC00F4C87A /* MoreLotteryIndexViewController.swift */; };
 		D77BAB8420A3FACC00F4C87A /* MoreLotteryIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB8220A3FACC00F4C87A /* MoreLotteryIndexViewController.xib */; };
+		D77BAB8E20A542B900F4C87A /* BJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB8C20A542B900F4C87A /* BJLoginViewController.swift */; };
+		D77BAB8F20A542B900F4C87A /* BJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB8D20A542B900F4C87A /* BJLoginViewController.xib */; };
+		D7998D3C20A5487E00BD412E /* BJLoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7998D3B20A5487E00BD412E /* BJLoginNavigationController.swift */; };
 		D7BC6EA820A18BD8008EFB3F /* OpenNumLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EA620A18BD8008EFB3F /* OpenNumLotteryCell.swift */; };
 		D7BC6EA920A18BD8008EFB3F /* OpenNumLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BC6EA720A18BD8008EFB3F /* OpenNumLotteryCell.xib */; };
 		D7BC6EAC20A18BF6008EFB3F /* OpenBallLotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BC6EAA20A18BF6008EFB3F /* OpenBallLotteryCell.swift */; };
@@ -175,12 +184,21 @@
 		D7153EA3208DDF5A00219B72 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		D7153EA4208DDF5A00219B72 /* DiscoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
 		D7153EA7208DE01000219B72 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		D7576FB920A56776007E201C /* BJSmsLoginRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJSmsLoginRViewController.swift; sourceTree = "<group>"; };
+		D7576FBA20A56776007E201C /* BJSmsLoginRViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJSmsLoginRViewController.xib; sourceTree = "<group>"; };
+		D7576FBD20A56785007E201C /* BJPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJPasswordViewController.swift; sourceTree = "<group>"; };
+		D7576FBE20A56785007E201C /* BJPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJPasswordViewController.xib; sourceTree = "<group>"; };
+		D7576FC120A56792007E201C /* BJRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJRegisterViewController.swift; sourceTree = "<group>"; };
+		D7576FC220A56792007E201C /* BJRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJRegisterViewController.xib; sourceTree = "<group>"; };
 		D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterModel.swift; sourceTree = "<group>"; };
 		D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJWebViewController.swift; sourceTree = "<group>"; };
 		D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJWebViewController.xib; sourceTree = "<group>"; };
 		D77BAB7F20A3F4A400F4C87A /* UIImage+FileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+FileName.swift"; sourceTree = "<group>"; };
 		D77BAB8120A3FACC00F4C87A /* MoreLotteryIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLotteryIndexViewController.swift; sourceTree = "<group>"; };
 		D77BAB8220A3FACC00F4C87A /* MoreLotteryIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreLotteryIndexViewController.xib; sourceTree = "<group>"; };
+		D77BAB8C20A542B900F4C87A /* BJLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJLoginViewController.swift; sourceTree = "<group>"; };
+		D77BAB8D20A542B900F4C87A /* BJLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJLoginViewController.xib; sourceTree = "<group>"; };
+		D7998D3B20A5487E00BD412E /* BJLoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJLoginNavigationController.swift; sourceTree = "<group>"; };
 		D7BC6EA620A18BD8008EFB3F /* OpenNumLotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNumLotteryCell.swift; sourceTree = "<group>"; };
 		D7BC6EA720A18BD8008EFB3F /* OpenNumLotteryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenNumLotteryCell.xib; sourceTree = "<group>"; };
 		D7BC6EAA20A18BF6008EFB3F /* OpenBallLotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBallLotteryCell.swift; sourceTree = "<group>"; };
@@ -427,6 +445,30 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
+		D77BAB8B20A542A000F4C87A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7998D3A20A5483500BD412E /* LoginNavigation */,
+				D77BAB8C20A542B900F4C87A /* BJLoginViewController.swift */,
+				D77BAB8D20A542B900F4C87A /* BJLoginViewController.xib */,
+				D7576FB920A56776007E201C /* BJSmsLoginRViewController.swift */,
+				D7576FBA20A56776007E201C /* BJSmsLoginRViewController.xib */,
+				D7576FBD20A56785007E201C /* BJPasswordViewController.swift */,
+				D7576FBE20A56785007E201C /* BJPasswordViewController.xib */,
+				D7576FC120A56792007E201C /* BJRegisterViewController.swift */,
+				D7576FC220A56792007E201C /* BJRegisterViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D7998D3A20A5483500BD412E /* LoginNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D7998D3B20A5487E00BD412E /* BJLoginNavigationController.swift */,
+			);
+			path = LoginNavigation;
+			sourceTree = "<group>";
+		};
 		D7BC6EA420A18B51008EFB3F /* OpenCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -513,6 +555,7 @@
 		D7C2141E20872840000F3FB2 /* LotterySwift */ = {
 			isa = PBXGroup;
 			children = (
+				D77BAB8B20A542A000F4C87A /* Login */,
 				D77BAB7A20A2FDFA00F4C87A /* WebView */,
 				D70BA8AE2094563C0006C492 /* BuyHall */,
 				D7153E9A208DDF2A00219B72 /* Open */,
@@ -714,17 +757,21 @@
 				D70BA8952093017D0006C492 /* DLTInvestCollectionViewCell.xib in Resources */,
 				D7153EA6208DDF5A00219B72 /* DiscoverViewController.xib in Resources */,
 				D715069D20897CB100326583 /* HomeIndexViewController.xib in Resources */,
+				D7576FC020A56785007E201C /* BJPasswordViewController.xib in Resources */,
 				D7BC6ECD20A2AAB0008EFB3F /* UserCenterShadowView.xib in Resources */,
 				D7BC6EC120A2AA4B008EFB3F /* UserCenterCollectionCell.xib in Resources */,
 				D70BA8A12094211B0006C492 /* LotteryIco.plist in Resources */,
 				D70BA8AD20944B070006C492 /* NewsCollectionViewCell.xib in Resources */,
 				D70BA8B6209456E80006C492 /* DLTViewController.xib in Resources */,
+				D7576FBC20A56776007E201C /* BJSmsLoginRViewController.xib in Resources */,
+				D7576FC420A56792007E201C /* BJRegisterViewController.xib in Resources */,
 				D7153E8E208DD04200219B72 /* BuyHallKvCollectionViewCell.xib in Resources */,
 				D7BC6EB120A18C0B008EFB3F /* OpenSFCLotteryCell.xib in Resources */,
 				D713CAF52091C50400A0E1FE /* HronCollectionViewCell.xib in Resources */,
 				D70BA8CC2099B5CE0006C492 /* NumHistoryViewController.xib in Resources */,
 				D7BC6EC520A2AA5F008EFB3F /* UserCenterHeadCell.xib in Resources */,
 				D70BA8D22099BDAA0006C492 /* NumHistoryTableCell.xib in Resources */,
+				D77BAB8F20A542B900F4C87A /* BJLoginViewController.xib in Resources */,
 				D77BAB8420A3FACC00F4C87A /* MoreLotteryIndexViewController.xib in Resources */,
 				D7153E94208DDDCB00219B72 /* HomeLotteryIndexCell.xib in Resources */,
 				D7BC6EAD20A18BF6008EFB3F /* OpenBallLotteryCell.xib in Resources */,
@@ -812,6 +859,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71506AB2089809000326583 /* NewsIndexModel.swift in Sources */,
+				D7576FBB20A56776007E201C /* BJSmsLoginRViewController.swift in Sources */,
 				D7BC6EC420A2AA5F008EFB3F /* UserCenterHeadCell.swift in Sources */,
 				D7153EA1208DDF4D00219B72 /* UserViewController.swift in Sources */,
 				D71506A120897FB100326583 /* HomeSectionModel.swift in Sources */,
@@ -819,6 +867,7 @@
 				D7F91A0120A03FFE003BCF3B /* UIView+Additions.swift in Sources */,
 				D7153E97208DDEFC00219B72 /* CustomTabBarController.swift in Sources */,
 				D7153E8D208DD04200219B72 /* BuyHallKvCollectionViewCell.swift in Sources */,
+				D7576FC320A56792007E201C /* BJRegisterViewController.swift in Sources */,
 				D7153E90208DD59D00219B72 /* HomeSectionModel+CollectionView.swift in Sources */,
 				D70BA8BF209955A00006C492 /* BJLotteryIssue.swift in Sources */,
 				D7BC6ECC20A2AAB0008EFB3F /* UserCenterShadowView.swift in Sources */,
@@ -843,7 +892,9 @@
 				D77BAB8020A3F4A400F4C87A /* UIImage+FileName.swift in Sources */,
 				D70BA8AC20944B070006C492 /* NewsCollectionViewCell.swift in Sources */,
 				D70BA8942093017D0006C492 /* DLTInvestCollectionViewCell.swift in Sources */,
+				D7998D3C20A5487E00BD412E /* BJLoginNavigationController.swift in Sources */,
 				D71506A32089802100326583 /* KvModel.swift in Sources */,
+				D7576FBF20A56785007E201C /* BJPasswordViewController.swift in Sources */,
 				D70BA8C1209958510006C492 /* IussueInfoAction.swift in Sources */,
 				D71506A52089803500326583 /* HomeNumberLotteryModel.swift in Sources */,
 				D7BC6EB320A18C22008EFB3F /* OpenModel.swift in Sources */,
@@ -857,6 +908,7 @@
 				D70BA898209310850006C492 /* HomeAdsCollectionViewCell.swift in Sources */,
 				D7BC6EAC20A18BF6008EFB3F /* OpenBallLotteryCell.swift in Sources */,
 				D70BA8BC20945F0E0006C492 /* DLTNumberAreaView.swift in Sources */,
+				D77BAB8E20A542B900F4C87A /* BJLoginViewController.swift in Sources */,
 				D7BC6EC820A2AA72008EFB3F /* UserCenterMoneyCell.swift in Sources */,
 				D7153E93208DDDCB00219B72 /* HomeLotteryIndexCell.swift in Sources */,
 				D7BC6EBB20A2996B008EFB3F /* DiscoverModel.swift in Sources */,

@@ -2,8 +2,8 @@
 //  UserCenterHeadCell.swift
 //  LotterySwift
 //
-//  Created by 孔峰 on 2018/5/9.
-//  Copyright © 2018年 孔峰. All rights reserved.
+//  Created by richard on 2018/5/9.
+//  Copyright © 2018年 richard. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,8 @@ class UserCenterHeadCell: UICollectionViewCell {
     @IBOutlet weak var userInfo: UILabel!
     @IBOutlet weak var nickName: UILabel!
     @IBOutlet weak var userView: UIView!
+    
+    var loginBlock: ((UIButton) -> ())?
     
     var headerOnClickCallBackBlock: (() -> ())?
     var balanceOnClickCallBackBlock: (() -> ())?
@@ -28,4 +30,7 @@ class UserCenterHeadCell: UICollectionViewCell {
         // Initialization code
     }
 
+    @IBAction func loginAction(_ sender: UIButton) {
+        loginBlock!(sender)
+    }
 }
