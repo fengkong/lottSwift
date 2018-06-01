@@ -68,6 +68,13 @@
 		D7576FC020A56785007E201C /* BJPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FBE20A56785007E201C /* BJPasswordViewController.xib */; };
 		D7576FC320A56792007E201C /* BJRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FC120A56792007E201C /* BJRegisterViewController.swift */; };
 		D7576FC420A56792007E201C /* BJRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FC220A56792007E201C /* BJRegisterViewController.xib */; };
+		D7576FC820A59598007E201C /* BJScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FC620A59598007E201C /* BJScoreViewController.swift */; };
+		D7576FC920A59598007E201C /* BJScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7576FC720A59598007E201C /* BJScoreViewController.xib */; };
+		D7576FCB20A59A50007E201C /* ScoreConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FCA20A59A50007E201C /* ScoreConditionView.swift */; };
+		D7576FD020A59BF6007E201C /* ScoreIssueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FCF20A59BF6007E201C /* ScoreIssueModel.swift */; };
+		D7576FD220A59C11007E201C /* ScoreLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FD120A59C11007E201C /* ScoreLiveModel.swift */; };
+		D7576FD420A59C21007E201C /* ScoreSecion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FD320A59C21007E201C /* ScoreSecion.swift */; };
+		D7576FD620A59E75007E201C /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7576FD520A59E75007E201C /* ModelProtocol.swift */; };
 		D77BAB7920A2D7A900F4C87A /* UserCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */; };
 		D77BAB7D20A2FE1100F4C87A /* BJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */; };
 		D77BAB7E20A2FE1100F4C87A /* BJWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */; };
@@ -190,6 +197,13 @@
 		D7576FBE20A56785007E201C /* BJPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJPasswordViewController.xib; sourceTree = "<group>"; };
 		D7576FC120A56792007E201C /* BJRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJRegisterViewController.swift; sourceTree = "<group>"; };
 		D7576FC220A56792007E201C /* BJRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJRegisterViewController.xib; sourceTree = "<group>"; };
+		D7576FC620A59598007E201C /* BJScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJScoreViewController.swift; sourceTree = "<group>"; };
+		D7576FC720A59598007E201C /* BJScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJScoreViewController.xib; sourceTree = "<group>"; };
+		D7576FCA20A59A50007E201C /* ScoreConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreConditionView.swift; sourceTree = "<group>"; };
+		D7576FCF20A59BF6007E201C /* ScoreIssueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreIssueModel.swift; sourceTree = "<group>"; };
+		D7576FD120A59C11007E201C /* ScoreLiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLiveModel.swift; sourceTree = "<group>"; };
+		D7576FD320A59C21007E201C /* ScoreSecion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSecion.swift; sourceTree = "<group>"; };
+		D7576FD520A59E75007E201C /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
 		D77BAB7820A2D7A900F4C87A /* UserCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterModel.swift; sourceTree = "<group>"; };
 		D77BAB7B20A2FE1100F4C87A /* BJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJWebViewController.swift; sourceTree = "<group>"; };
 		D77BAB7C20A2FE1100F4C87A /* BJWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BJWebViewController.xib; sourceTree = "<group>"; };
@@ -436,6 +450,44 @@
 			path = Open;
 			sourceTree = "<group>";
 		};
+		D7576FC520A59582007E201C /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				D7576FCD20A59B5F007E201C /* ScoreCell */,
+				D7576FCE20A59B5F007E201C /* ScoreModel */,
+				D7576FCC20A59B5F007E201C /* ScoreToastView */,
+				D7576FC620A59598007E201C /* BJScoreViewController.swift */,
+				D7576FC720A59598007E201C /* BJScoreViewController.xib */,
+				D7576FCA20A59A50007E201C /* ScoreConditionView.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		D7576FCC20A59B5F007E201C /* ScoreToastView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScoreToastView;
+			sourceTree = "<group>";
+		};
+		D7576FCD20A59B5F007E201C /* ScoreCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScoreCell;
+			sourceTree = "<group>";
+		};
+		D7576FCE20A59B5F007E201C /* ScoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7576FCF20A59BF6007E201C /* ScoreIssueModel.swift */,
+				D7576FD120A59C11007E201C /* ScoreLiveModel.swift */,
+				D7576FD320A59C21007E201C /* ScoreSecion.swift */,
+				D7576FD520A59E75007E201C /* ModelProtocol.swift */,
+			);
+			path = ScoreModel;
+			sourceTree = "<group>";
+		};
 		D77BAB7A20A2FDFA00F4C87A /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +607,7 @@
 		D7C2141E20872840000F3FB2 /* LotterySwift */ = {
 			isa = PBXGroup;
 			children = (
+				D7576FC520A59582007E201C /* Score */,
 				D77BAB8B20A542A000F4C87A /* Login */,
 				D77BAB7A20A2FDFA00F4C87A /* WebView */,
 				D70BA8AE2094563C0006C492 /* BuyHall */,
@@ -777,6 +830,7 @@
 				D7BC6EAD20A18BF6008EFB3F /* OpenBallLotteryCell.xib in Resources */,
 				D7C2142A20872841000F3FB2 /* LaunchScreen.storyboard in Resources */,
 				D7153E9E208DDF4100219B72 /* OpenViewController.xib in Resources */,
+				D7576FC920A59598007E201C /* BJScoreViewController.xib in Resources */,
 				D70BA8C3209959A20006C492 /* AppConfig.plist in Resources */,
 				D7C2142720872841000F3FB2 /* Assets.xcassets in Resources */,
 			);
@@ -863,6 +917,7 @@
 				D7BC6EC420A2AA5F008EFB3F /* UserCenterHeadCell.swift in Sources */,
 				D7153EA1208DDF4D00219B72 /* UserViewController.swift in Sources */,
 				D71506A120897FB100326583 /* HomeSectionModel.swift in Sources */,
+				D7576FD420A59C21007E201C /* ScoreSecion.swift in Sources */,
 				D70BA8D12099BDAA0006C492 /* NumHistoryTableCell.swift in Sources */,
 				D7F91A0120A03FFE003BCF3B /* UIView+Additions.swift in Sources */,
 				D7153E97208DDEFC00219B72 /* CustomTabBarController.swift in Sources */,
@@ -870,7 +925,9 @@
 				D7576FC320A56792007E201C /* BJRegisterViewController.swift in Sources */,
 				D7153E90208DD59D00219B72 /* HomeSectionModel+CollectionView.swift in Sources */,
 				D70BA8BF209955A00006C492 /* BJLotteryIssue.swift in Sources */,
+				D7576FD220A59C11007E201C /* ScoreLiveModel.swift in Sources */,
 				D7BC6ECC20A2AAB0008EFB3F /* UserCenterShadowView.swift in Sources */,
+				D7576FC820A59598007E201C /* BJScoreViewController.swift in Sources */,
 				D7C2145B208838F7000F3FB2 /* NSData+CRC32.m in Sources */,
 				D7C2142020872840000F3FB2 /* AppDelegate.swift in Sources */,
 				D70BA8B82094596C0006C492 /* UIViewController+NavigationItem.swift in Sources */,
@@ -882,6 +939,7 @@
 				D70BA8A3209422D30006C492 /* AppHelper.swift in Sources */,
 				D7F919FD20A02508003BCF3B /* BJDaletouModel.swift in Sources */,
 				D7C2144F20872900000F3FB2 /* BJAlamofire.swift in Sources */,
+				D7576FCB20A59A50007E201C /* ScoreConditionView.swift in Sources */,
 				D70BA890209301680006C492 /* SSQInvestCollectionViewCell.swift in Sources */,
 				D70BA8CB2099B5CE0006C492 /* NumHistoryViewController.swift in Sources */,
 				D70BA8C7209965580006C492 /* BJAction.swift in Sources */,
@@ -896,10 +954,12 @@
 				D71506A32089802100326583 /* KvModel.swift in Sources */,
 				D7576FBF20A56785007E201C /* BJPasswordViewController.swift in Sources */,
 				D70BA8C1209958510006C492 /* IussueInfoAction.swift in Sources */,
+				D7576FD020A59BF6007E201C /* ScoreIssueModel.swift in Sources */,
 				D71506A52089803500326583 /* HomeNumberLotteryModel.swift in Sources */,
 				D7BC6EB320A18C22008EFB3F /* OpenModel.swift in Sources */,
 				D77BAB7920A2D7A900F4C87A /* UserCenterModel.swift in Sources */,
 				D7BC6EA820A18BD8008EFB3F /* OpenNumLotteryCell.swift in Sources */,
+				D7576FD620A59E75007E201C /* ModelProtocol.swift in Sources */,
 				D7153E9D208DDF4100219B72 /* OpenViewController.swift in Sources */,
 				D70BA8BA20945EC90006C492 /* BJDaletouNumber.swift in Sources */,
 				D70BA8B5209456E80006C492 /* DLTViewController.swift in Sources */,

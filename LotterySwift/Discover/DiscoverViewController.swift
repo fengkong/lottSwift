@@ -69,9 +69,15 @@ extension DiscoverViewController: UITableViewDataSource{
 
 extension DiscoverViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let webView = BJWebViewController()
         let model = tableData[indexPath.row] as! DiscoverModel
-        webView.webUrlStr = model.param
-        navigationController?.pushViewController(webView, animated: true)
+        if Int(model.actionid) == 10002 {
+            let scoreViewController = BJScoreViewController()
+            scoreViewController.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(scoreViewController, animated: true)
+        }else if  Int(model.actionid) == 10006 {
+            let webView = BJWebViewController()
+            webView.webUrlStr = model.param
+            navigationController?.pushViewController(webView, animated: true)
+        }
     }
 }

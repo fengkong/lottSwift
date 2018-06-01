@@ -46,9 +46,12 @@ class HomeIndexViewController: UIViewController {
 extension HomeIndexViewController {
     func requestData()  {
         let alamofire = BJAlamofire()
-        alamofire.loadRequestData(url: JAVA_ADMIN, path: JAVA_ADMIN_PATH,action: "903302", param: ["":""]){ (success, data) in
+        alamofire.loadRequestData(url: JAVA_ADMIN, path: JAVA_ADMIN_PATH,action: "903302", param: ["":""]){ (isSuccess, data) in
             self.homeCollectionView.mj_header.endRefreshing()
             
+            guard isSuccess else {
+                return
+            }
             let arrar: NSArray = JSON(data).arrayObject!  as NSArray
             let sectionModels = NSMutableArray()
             var sectionIndex: Int = 0
