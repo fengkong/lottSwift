@@ -2,10 +2,19 @@ PODS:
   - Alamofire (4.7.2)
   - CryptoSwift (0.9.0)
   - HandyJSON (4.1.1)
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
   - Kingfisher (4.7.0)
   - MJRefresh (3.1.15.3)
   - SnapKit (4.0.0)
   - SwiftyJSON (4.0.0)
+  - Texture/Core (2.6)
+  - Texture/IGListKit (2.6):
+    - IGListKit (= 3.0.0)
+    - Texture/Core
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -19,6 +28,8 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.15.3)
   - SnapKit (~> 4.0.0)
   - SwiftyJSON
+  - Texture/Core (~> 2.6)
+  - Texture/IGListKit (~> 2.6)
   - YYKit (~> 1.0.9)
   - ZCycleView (~> 0.0.5)
 
@@ -27,10 +38,12 @@ SPEC REPOS:
     - Alamofire
     - CryptoSwift
     - HandyJSON
+    - IGListKit
     - Kingfisher
     - MJRefresh
     - SnapKit
     - SwiftyJSON
+    - Texture
     - YYKit
     - ZCycleView
 
@@ -38,13 +51,15 @@ SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
   HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZCycleView: 64d3f706385f95dfcc1cbb0cc6246bb0399b1295
 
-PODFILE CHECKSUM: 93c0d2f53498e61e646885627ac16359093aad84
+PODFILE CHECKSUM: 1e2fcaa5a9133928e424be7a47132c6dace3f847
 
 COCOAPODS: 1.5.0

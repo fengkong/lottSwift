@@ -14,4 +14,7 @@ pod 'SwiftyJSON'
 pod 'HandyJSON', '~> 4.1.1'
 pod 'ZCycleView', '~> 0.0.5'
 pod 'MJRefresh', '~> 3.1.15.3'
+
+pod 'Texture/Core', '~> 2.6'
+pod 'Texture/IGListKit', '~> 2.6'
 end

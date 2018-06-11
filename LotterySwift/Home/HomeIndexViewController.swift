@@ -99,7 +99,7 @@ extension HomeIndexViewController: UICollectionViewDataSource{
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
        
-         let sectionModel = sections[indexPath.section] as! HomeSectionModel
+        let sectionModel = sections[indexPath.section] as! HomeSectionModel
         
         switch sectionModel.homeSectionType {
         case .homeSectionTypeKv:
